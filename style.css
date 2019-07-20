@@ -1,0 +1,475 @@
+/*
+  Project: Wara Garri
+  Author: Trap Introvert
+  github: https://github.com/Trapintrovert
+
+ */
+
+ /* HOME PAGE STYLE */
+
+@media (min-width:320px) {
+  #about{
+    padding-top: 42%;
+  }
+  #about .img-first {
+    position: absolute;
+    margin-top: 10%;
+    height:200px;
+  }
+  #about .img-second {
+    margin-right: -12%;
+    height: 350px;
+    width: 280px;
+    margin-left: 9%;
+    margin-top: -7%;
+  }
+  #value .card{
+    background: rgba(4, 51, 146, 0.8);
+    box-shadow: 0px 1px 10px rgba(120, 118, 118, 0.25);
+    border-radius: 10px;
+    width: 281px;
+    height: 346px;
+    margin-left: 8%;
+  }
+
+  #value .value-img-right{
+    margin-top: -102%;
+    margin-left: -6%;
+    position: absolute;
+    height: 306px;
+    width: 290px;
+  }
+  #value .order-1{
+    order: 2;
+  }
+  #value .order-2{
+    order: 1;
+  }
+}
+
+@media (min-width:360px) {
+  #about{
+    padding-top: 42%;
+  }
+  #about .img-first {
+    position: absolute;
+    margin-top: 10%;
+    height:200px;
+  }
+  #about .img-second {
+    margin-right: -12%;
+    height: 350px;
+    width: 313px;
+    margin-left: 7%;
+    margin-top: -7%;
+  }
+  #value .card{
+    background: rgba(4, 51, 146, 0.8);
+    box-shadow: 0px 1px 10px rgba(120, 118, 118, 0.25);
+    border-radius: 10px;
+    width: 325px;
+    height: 346px;
+    margin-left: 5%;
+  }
+
+  #value .value-img-right{
+    margin-top: -90%;
+    margin-left: -4%;
+    position: absolute;
+    height: 306px;
+    width: 326px;
+  }
+  #value .order-1{
+    order: 2;
+  }
+  #value .order-2{
+    order: 1;
+  }
+}
+
+@media (min-width:411px){
+  #about{
+    padding-top: 42%;
+  }
+  #about .img-first {
+    position: absolute;
+    margin-top: 10%;
+    height:200px;
+  }
+  #about .img-second {
+    margin-right: -12%;
+    height: 350px;
+    margin-left: 14%;
+    margin-top: -7%;
+        width: 339px;
+  }
+  #value .card{
+    background: rgba(4, 51, 146, 0.8);
+    box-shadow: 0px 1px 10px rgba(120, 118, 118, 0.25);
+    border-radius: 10px;
+    width: 344px;
+    height: 346px;
+    margin-left: 11%;
+  }
+
+  #value .value-img-right{
+    margin-top: -79%;
+    position: absolute;
+    height: 306px;
+    width: 360px;
+  }
+  #value .order-1{
+    order: 2;
+  }
+  #value .order-2{
+    order: 1;
+  }
+}
+
+@media (min-width:575px) {
+
+
+}
+
+/* Medium devices (tablets) */
+@media (min-width:768px) {
+  .bg-right{
+    background-image: url('images/bg-right.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    width: 381px; /*569px;*/
+    position: absolute;
+    margin-left: 386px;
+    opacity: 0.8;
+  }
+  #about{
+    padding-top: 10%;
+  }
+  #about .img-first {
+    position: absolute;
+    margin-top: 15%;
+    height:200px;
+  }
+  #about .img-second {
+    margin-right: -12%;
+    height: 350px;
+    margin-left: 14%;
+    margin-top: 10%;
+  }
+  #about .about-content{
+    margin-left: 8%;
+  }
+  #value .card{
+    background: rgba(4, 51, 146, 0.8);
+    box-shadow: 0px 1px 10px rgba(120, 118, 118, 0.25);
+    border-radius: 10px;
+    width: 266px;
+    height: 400px;
+    margin-left: 32%;
+  }
+
+  #value .value-img-right{
+    margin-top: -97%;
+    margin-left: 0%;
+    position: absolute;
+    height: 306px;
+    width: 275px; /*447px;*/
+  }
+  #value .order-1{
+    order: 1;
+  }
+  #value .order-2{
+    order: 1;
+  }
+  #development .card-padding{
+    padding-top: 27%;
+  }
+
+}
+
+
+/* Large devices (desktops) */
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1000px) {
+  .bg-right{
+    background-image: url('images/bg-right.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    width: 569px;
+    position: absolute;
+    margin-left: 456px;
+    opacity: 0.8;
+  }
+  #about{
+    padding-top: 10%;
+  }
+  #about .img-first {
+    position: absolute;
+    margin-top: 10%;
+    height:200px;
+  }
+  #about .img-second {
+    margin-right: -12%;
+    height: 350px;
+    margin-left: 14%;
+    margin-top: 5%;
+  }
+  #about .about-content{
+    margin-top: 0px;
+  }
+  #value .card{
+    background: rgba(4, 51, 146, 0.8);
+    box-shadow: 0px 1px 10px rgba(120, 118, 118, 0.25);
+    border-radius: 10px;
+    width: 447px;
+    height: 400px;
+    margin-left: 12%;
+  }
+
+  #value .value-img-right{
+    margin-top: -73%;
+    margin-left: 0px;
+    position: absolute;
+    height: 306px;
+    width: 447px;
+  }
+  #value .order-1{
+    order: 1;
+  }
+  #value .order-2{
+    order: 1;
+  }
+  #development .card-padding{
+    padding-top: 27%;
+  }
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width:1200px) {
+  .bg-right{
+    background-image: url('images/bg-right.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    width: 569px;
+    position: absolute;
+    margin-left: 742px;
+    opacity: 0.8;
+  }
+  #about{
+    padding-top: 10%;
+  }
+  #about .img-first {
+    position: absolute;
+    margin-top: 10%;
+    height:200px;
+  }
+
+  #about .img-second {
+    margin-right: -12%;
+    height: 350px;
+    width: 447px;
+    margin-left: 14%;
+    margin-top: 13%;
+  }
+  #about .about-content{
+    margin-top: 100px;
+  }
+  #value .card{
+    background: rgba(4, 51, 146, 0.8);
+    box-shadow: 0px 1px 10px rgba(120, 118, 118, 0.25);
+    border-radius: 10px;
+    width: 447px;
+    height: 400px;
+    margin-left: 35%;
+  }
+
+  #value .value-img-right{
+    margin-top: -63%;
+    margin-left: 3%;
+    position: absolute;
+    height: 306px;
+    width: 447px;
+  }
+  #value .order-1{
+    order: 1;
+  }
+  #value .order-2{
+    order: 1;
+  }
+  #development .card-padding{
+    padding-top: 27%;
+  }
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+  font-family: ;
+}
+.bg-left{
+  background-image: url('images/bg-left.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 302px;
+  width: 231px;
+  position: absolute;
+  margin-top: 171px;
+}
+#hero .nav-link{
+  color: #043392!important;
+}
+#hero h2{
+  color: #787676;
+}
+#hero .btn{
+  color: #043392;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+#hero p{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 144.18%;
+}
+
+#about h2,
+#value h2,
+#development h2,
+#stow h2,
+#products h2{
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 49px;
+  color:  #787676;
+}
+#about p,
+#value p,
+#development p{
+  text-align: justify;
+  color: #333333;
+}
+
+#value{
+  padding-top: 10%;
+}
+
+#development{
+  padding-top: 12%;
+}
+#development .card{
+width: 100%;
+height: 100px;
+box-shadow: 0px 1px 10px rgba(120, 118, 118, 0.25);
+border-radius: 10px;
+}
+#development .card img{
+  width: 80px;
+}
+
+#development .card-one{
+  background: #043392;
+}
+
+#development .card-two{
+  background: #14DF59;
+}
+#development .card-three{
+  background: #18E4E4;
+}
+#development .card-four{
+background: #D70808;
+}
+
+#stow{
+padding-top: 10%;
+}
+
+#stow img{
+  height: 60%;
+  width: 100%;
+}
+#stow p{
+  text-align: justify;
+  color: #333333;
+  font-size: 24px;
+}
+#stow hr{
+  width: 40%;
+  height: 3px;
+  background: #333333;
+  margin-left: 0%;
+}
+#sales{
+  background-image: url('images/sales-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 590px;
+  width: 100%;
+}
+
+#sales .sales-overlay{
+  background: rgba(73, 47, 134, 0.4);
+  content: '';
+  display: block;
+  width: 100%;
+  height: 590px;
+  position: absolute;
+}
+#sales .card{
+border-radius: 5px;
+}
+#sales .badge{
+  background: #14DF59;
+  width: 128px;
+  height: 35px;
+  text-align: center;
+  margin-left: 8%;
+  font-size: 24px;
+  margin-top: 30px;
+  color: #fff;
+}
+
+#sales .card-text{
+  color: #333333;
+  font-size: 24px;
+line-height: 33px;
+}
+
+#footer{
+  background: #043392;
+  height: auto;
+}
+#footer .fa{
+  font-size: 24px;
+}
+
+#footer hr{
+  width: 40%;
+  height: 3px;
+  background: #fff;
+  margin-left: 0%;
+}
+
+#footer .btn-default{
+  background: rgba(2{55, 255, 255, 0.8);
+  border-radius: 5px;
+}
+
+input[type="text"]{
+  background: transparent;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 5px;
+}

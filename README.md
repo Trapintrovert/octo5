@@ -1,2 +1,2 @@
-# octo5
-Real Estate Company
+# garri
+An ordering App for Garri in Abeokuta
