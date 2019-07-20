@@ -463,13 +463,26 @@ line-height: 33px;
 }
 
 #footer .btn-default{
-  background: rgba(2{55, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.8);
   border-radius: 5px;
+  color: #043392;
+}
+#footer ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
 }
 
-input[type="text"]{
-  background: transparent;
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color:#fff;
+}
+#footer .form-control{
+  background-color: #043392;
   border: 2px solid #FFFFFF;
   box-sizing: border-box;
   border-radius: 5px;
+  color: #fff;
 }
