@@ -48,60 +48,42 @@
       </div>
     </div>
   </nav>
-  <section id="hero">
-    <div class="hero-overlay">
+  <section id="estates">
+    <div class="estate-overlay">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-              <div class="hero-content">
-                <h2 class="pt-2 mb-3 font-weight-bold mt-5">Innovative Property and Constructive Solutions</h2>
-                <p class="text-white">Octo5 Estates Limited – formerly known as Legacy Realties Limited was incorporated in 1997 to explore the emerging opportunities in the Nigerian economy.</p>
-                <a href="#about" class="btn"><i class="fa fa-arrow-right ml-0 mr-3"></i>Learn more</a>
-              </div>
+          <div class="col">
+            <h3 class=" text-center text-white py-5">Our Estates</h3>
           </div>
-          <div class="col-md-6"></div>
-      </div>
-    </div>
-  </section>
-  <!-- About Us Section -->
-  <section id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 order-1">
-          <div class="about-content">
-            <h2 class="font-weight-bold my-3">About Us</h2>
-            <hr/>
-            <p>Octo5 Estates Limited – formerly known as Legacy Realties Limited was incorporated in 1997 to explore the emerging opportunities in the Nigerian economy.
-              Octo5 Estates and its sister companies have since become known as innovative companies in the drive to create unique communities and enhance the value of such developments through their bouquet of services.
-              It is committed to developing and implementing innovative property and construction solutions that are tailor made to suit the need of Nigerians. Over the next five years, we are focusing on addressing the huge supply deficit and affordability gap impeding home ownership.
-            </p>
-            <a href="#value" class="btn">Read more<i class="fa fa-arrow-down ml-2"></i></a>
-          </div>
-        </div>
-        <div class="col-md-6 order-2">
-          <img src="images/about.png" class="img-second" alt="About grouped vector">
         </div>
       </div>
     </div>
   </section>
-  <!-- Our Value  -->
-  <section id="value">
+
+  <!-- Product listing -->
+  <section id="products" class="py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <div class="value-img">
-            <img src="images/value.png" class="value-img-right"  alt="Our Core Value">
+        <div class="col-md-6 py-3">
+          <div class="p-3">
+            <img src="images/project1.png" alt="Sunrise Lifestyle Estate, Ipaja">
+            <h5>Sunrise Lifestyle Estate, Ipaja.</h5>
+          </div>
+          <div class="p-3">
+            <img src="images/project2.png" alt="Sunrise Lifestyle Estate, Ipaja">
+            <h5>Ocean Bay Estate, Lekki.</h5>
           </div>
         </div>
-          <div class="col-md-6">
-            <div class="value-content">
-              <h2 class="my-3 font-weight-bold pt-3 my-3">OUR CORE VALUES</h2>
-              <hr/>
-              <p >We strive to deliver value at the lowest possible cost on all our projects. As good corporate citizens, we believe in the community and seek to add value to it through all our services. As professionals, we value trust and integrity and aim to reflect it in all dealings with our clients and contractors. As individuals, we believe in the sanctity of the environment. Any project capable of distorting the environment shall be modified to ensure compliance. We believe in the existence of a Supreme Being and strive to honour Him in all we do.
-              </p>
-              <a href="#footer" class="btn">Read more<i class="fa fa-arrow-down ml-2"></i></a>
-            </div>
+        <div class="col-md-6 py-3">
+          <div class="p-3">
+            <img src="images/project3.png" alt="Sunrise Lifestyle Estate, Ipaja">
+            <h5>Heritage Place, Monastery Road, Sangotedo.</h5>
           </div>
+          <div class="p-3">
+            <img src="images/project1.png" alt="Sunrise Lifestyle Estate, Ipaja">
+            <h5>Heron’s Beak Apartments, eside Ocean Bay, Lekki.</h5>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -115,15 +97,15 @@
               <form id="order" action="" method="POST">
                 <input type="hidden" name="_subject" value="Message from a client">
                 <div class="form-group">
-                    <input type="email" id="email" name="_replyto" class="form-control" placeholder="Enter Email" required>
+                    <input type="email" id="email" name="_replyto" class="form-control" placeholder="Enter Email">
                     <div class="invalid-feedback">
-                      Enter a correct email.
+                      Enter a correct email
                     </div>
                 </div>
                 <div class="form-group">
-                    <textarea name="message" id="message"class="form-control" placeholder="Write your message" rows="5" required></textarea>
+                    <textarea name="message" id="message"class="form-control" placeholder="Write your message" rows="5"></textarea>
                     <div class="invalid-feedback">
-                      This field can't be empty.
+                      This field can't be empty
                     </div>
                 </div>
                 <input type="submit" value="Submit" class="btn btn-default btn-block font-weight-bold">
@@ -160,7 +142,6 @@
       </div>
     </div>
   </section>
-
 
    <script src="js/jquery-2.1.4.min.js"></script>
    <script src="js/owl.carousel.min.js"></script>
@@ -210,22 +191,6 @@
   </script>
   <script>
     window.sr = ScrollReveal();
-    sr.reveal('.hero-content', {
-      duration: 3000,
-      origin:'left'
-    });
-    sr.reveal('.about-content', {
-      duration: 3000,
-      origin:'right'
-    });
-    sr.reveal('.value-content', {
-      duration: 3000,
-      origin:'left'
-    });
-    sr.reveal('#stow', {
-      duration: 3000,
-      origin:'top'
-    });
     sr.reveal('#footer', {
       duration: 3000,
       origin:'top'
