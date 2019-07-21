@@ -8,6 +8,9 @@
  /* HOME PAGE STYLE */
 
 @media (min-width:320px) {
+  .hero-content{
+    padding-top: 10%;
+  }
   #about{
     padding-top: 22%;
   }
@@ -89,6 +92,9 @@
 }
 
 @media (min-width:360px) {
+  .hero-content{
+    padding-top: 10%;
+  }
   #about{
     padding-top: 42%;
   }
@@ -154,6 +160,9 @@
 }
 
 @media (min-width:411px){
+  .hero-content{
+    padding-top: 10%;
+  }
   #about{
     padding-top: 42%;
   }
@@ -246,7 +255,9 @@
 
 /* Medium devices (tablets) */
 @media (min-width:768px) {
-
+  .hero-content{
+    padding-top: 10%;
+  }
   #about{
     padding-top: 10%;
   }
@@ -331,7 +342,9 @@
 }
 
 @media (min-width:1000px) {
-
+  .hero-content{
+    padding-top: 10%;
+  }
   #about{
     padding-top: 10%;
   }
@@ -410,7 +423,9 @@
 
 /* Extra large devices (large desktops) */
 @media (min-width:1200px) {
-
+  .hero-content{
+    padding-top: 23%;
+  }
   #about{
     padding-top: 2%;
   }
@@ -502,6 +517,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 #hero .nav-link:hover{
   color:  #043392;
   background-color: #043392;
@@ -528,9 +544,7 @@ body{
   font-size: 24px;
   line-height: 33px;
 }
-.hero-content{
-  padding-top: 10%;
-}
+
 #hero p{
   font-style: normal;
   font-weight: 600;
