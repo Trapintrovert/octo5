@@ -30,8 +30,7 @@
     background: rgba(4, 51, 146, 0.4);
     content: '';
     display: block;
-    height: 620px;
-    margin-top: 12px;
+    height: 647px;
   }
   #s-card .card{
     width: 290px;
@@ -125,8 +124,7 @@
     background: rgba(4, 51, 146, 0.4);
     content: '';
     display: block;
-    height: 525px;
-    margin-top: 11px;
+    height: 550px;
   }
   #s-card .card{
     width: 325px;
@@ -219,8 +217,7 @@
     background: rgba(4, 51, 146, 0.4);
     content: '';
     display: block;
-    height: 472px;
-    margin-top: 10px;
+    height: 495px;
   }
 
   .quote{
@@ -421,8 +418,7 @@
     display: block;
     height: 335px;
     margin-top: 0px;
-    margin-left: 7px;
-    margin-right: 7px;
+
   }
 
   #value .value-content{
@@ -516,8 +512,7 @@
     content: '';
     display: block;
     height: 300px;
-    margin-left: 1%;
-    margin-right: 0.8%;
+
   }
 
   #value .value-content{
