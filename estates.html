@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Octo5 |</title>
+  <title>Octo5 | Real Estate Company</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -16,11 +16,9 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/simple-lightbox.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="images/fav.ico" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
 
@@ -43,6 +41,9 @@
            <a class="nav-link font-weight-bold" href="stow.html">STOW</a>
           </li>
           <li class="nav-item mx-2">
+           <a class="nav-link font-weight-bold" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item mx-2">
            <a class="nav-link font-weight-bold" href="estates.html">Our Estates</a>
           </li>
         </ul>
@@ -50,7 +51,7 @@
     </div>
   </nav>
   <section id="estates">
-    <div class="estate-overlay">
+    <div class="overlay">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -66,22 +67,22 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 py-3">
-          <div class="p-3">
+          <!-- <div class="p-3">
             <img src="images/project1.png" alt="Sunrise Lifestyle Estate, Ipaja">
             <h5>Sunrise Lifestyle Estate, Ipaja.</h5>
-          </div>
+          </div> -->
           <div class="p-3">
-            <img src="images/project2.png" alt="Sunrise Lifestyle Estate, Ipaja">
+            <img src="images/Ocean_Bay.jpg" alt="Sunrise Lifestyle Estate, Ipaja" >
             <h5>Ocean Bay Estate, Lekki.</h5>
           </div>
         </div>
         <div class="col-md-6 py-3">
           <div class="p-3">
-            <img src="images/project3.png" alt="Sunrise Lifestyle Estate, Ipaja">
-            <h5>Heritage Place, Monastery Road, Sangotedo.</h5>
+            <img src="images/legacy.jpg" alt="Sunrise Lifestyle Estate, Ipaja">
+            <h5>Legacy Realities .</h5>
           </div>
           <div class="p-3">
-            <img src="images/project1.png" alt="Sunrise Lifestyle Estate, Ipaja">
+            <img src="images/hebron.jpg" alt="Sunrise Lifestyle Estate, Ipaja">
             <h5>Heron’s Beak Apartments, eside Ocean Bay, Lekki.</h5>
           </div>
         </div>
@@ -95,18 +96,18 @@
         <div class="row">
           <div class="col-md-6 py-3">
             <h3 class="text-white my-2">Contact</h3>
-              <form id="order" action="https://formspree.io/hello@octo5enterprise.com" method="POST">
+              <form  action="https://formspree.io/hello@octo5enterprise.com" method="POST">
                 <input type="hidden" name="_subject" value="Message for Octo5estates">
                 <div class="form-group">
-                    <input type="email" id="email" name="_replyto" class="form-control" placeholder="Enter Email">
+                    <input type="email" id="email" name="_replyto" class="form-control" placeholder="Enter Email" required>
                     <div class="invalid-feedback">
-                      Enter a correct email
+                      Enter a correct email.
                     </div>
                 </div>
                 <div class="form-group">
-                    <textarea name="message" id="message"class="form-control" placeholder="Write your message" rows="5"></textarea>
+                    <textarea name="message" id="message"class="form-control" placeholder="Write your message" rows="4" required></textarea>
                     <div class="invalid-feedback">
-                      This field can't be empty
+                      This field can't be empty.
                     </div>
                 </div>
                 <input type="submit" value="Submit" class="btn btn-default btn-block font-weight-bold">
@@ -134,7 +135,7 @@
             <div class="my-3 text-white">
               <i class="fa fa-phone mr-2"></i> +2348012345678
             </div>
-            <p class="text-left text-white pt-2"> &copy; Octo5 Estate Limited  <script>
+            <p class="text-left text-white pt-2"> &copy; Octo5 Estates Limited  <script>
                 document.write(new Date().getFullYear())
               </script>.</p>
           </div>
@@ -145,7 +146,7 @@
   </section>
 
    <script src="js/jquery-2.1.4.min.js"></script>
-   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/simple-lightbox.min.js"></script>
    <script src="js/popper.min.js"></script>
    <script src="js/scrollreveal.min.js"></script>
    <script src="js/bootstrap.min.js"></script>
@@ -159,37 +160,7 @@
        });
      }
     </script>
-  <script>
-    $(document).ready(function(){
-        $(".owl-carousel").owlCarousel({
-          loop:true,
-          margin:60,
-          center:true,
-          responsiveClass:true,
-          autoplay:true,
-          autoplayTimeout:2000,
-          autoplayHoverPause:true,
-          responsive:{
-              0:{
-                  items:2,
-                  nav:false,
-                  loop:true
-              },
-              600:{
-                  items:2,
-                  nav:false,
-                  loop:true
-              },
-              1000:{
-                  items:3,
-                  nav:false,
-                  loop:true
-              }
-          }
-        });
 
-    });
-  </script>
   <script>
     window.sr = ScrollReveal();
     sr.reveal('#footer', {

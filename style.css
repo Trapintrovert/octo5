@@ -80,32 +80,17 @@
       margin-top: 35%;
     }
 
-  #products img{
-    width: 100%;
-  }
+
 
   #products h5{
     text-align: center;
   }
-  #stow{
-    background-image: url("images/stow-hero.png");
-    height: 1300px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
   #stow .stow-content img{
     height: 355px;
     width: 275px;
   }
-  #stow .stow-overlay{
-    background: rgba(22, 22, 29, 0.6);
-    content: '';
-    display: block;
-    width: 100%;
-    height: 1300px;
-    position: absolute;
-  }
+
   #stow .stow-content{
     margin-top: 8%;
     padding-bottom: 10%;
@@ -189,30 +174,18 @@
   }
   #products img{
     width: 100%;
+    height: 230px;
   }
 
   #products h5{
     text-align: center;
   }
-  #stow{
-    background-image: url("images/stow-hero.png");
-    height: 1200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
   #stow .stow-content img{
     height: 355px;
     width: 275px;
   }
-  #stow .stow-overlay{
-    background: rgba(22, 22, 29, 0.6);
-    content: '';
-    display: block;
-    width: 100%;
-    height: 1200px;
-    position: absolute;
-  }
+
   #stow .stow-content{
     margin-top: 8%;
     padding-bottom: 10%;
@@ -293,30 +266,17 @@
 
   #products img{
     width: 100%;
+    height: 230px;
   }
-
   #products h5{
     text-align: center;
   }
-  #stow{
-    background-image: url("images/stow-hero.png");
-    height: 1200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
   #stow .stow-content img{
     height: 355px;
     width: 370px;
   }
-  #stow .stow-overlay{
-    background: rgba(22, 22, 29, 0.6);
-    content: '';
-    display: block;
-    width: 100%;
-    height: 1200px;
-    position: absolute;
-  }
+
   #stow .stow-content{
     margin-top: 8%;
     padding-bottom: 10%;
@@ -363,7 +323,7 @@
     margin-top: 8px;
   }
   #s-card .card{
-    height: 515px;
+    height: 360px;
     width: auto;
     margin-left: 0px;
   }
@@ -408,26 +368,14 @@
       text-align: justify;
       margin-top: 10%;
     }
-  #stow{
-    background-image: url("images/stow-hero.png");
-    height: 800px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
+
   #stow .stow-content img{
     height: 400px;
     width: 332px;
 
   }
-  #stow .stow-overlay{
-    background: rgba(22, 22, 29, 0.6);
-    content: '';
-    display: block;
-    width: 100%;
-    height: 800px;
-    position: absolute;
-  }
+
   #stow .stow-content{
     margin-top: 8%;
     padding-bottom: 10%;
@@ -482,7 +430,7 @@
     margin-right: 50px;
   }
   #s-card .card{
-    height: 455px;
+    height: 340px;
     width: auto;
     margin-left: 0px;
   }
@@ -526,25 +474,11 @@
     text-align: justify;
     margin-top: 10%;
   }
-  #stow{
-    background-image: url("images/stow-hero.png");
-    height: 650px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
   #stow .stow-content img{
     height: 400px;
     width: 332px;
 
-  }
-  #stow .stow-overlay{
-    background: rgba(22, 22, 29, 0.6);
-    content: '';
-    display: block;
-    width: 100%;
-    height: 650px;
-    position: absolute;
   }
   #stow .stow-content{
     margin-top: 8%;
@@ -593,7 +527,7 @@
 
   #s-card .card{
     width: 352px;
-    height: 374px;
+    height: 320px;
     margin-left: 10px;
   }
   .quote{
@@ -641,28 +575,15 @@
 
   #footer{
     background:  #16161D;
-    height: 350px;
+    height: 330px;
   }
 
-  #stow{
-    background-image: url("images/stow-hero.png");
-    height: 615px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
   #stow .stow-content img{
     height: 330px;
     width: 407px;
 }
-#stow .stow-overlay{
-  background: rgba(22, 22, 29, 0.6);
-  content: '';
-  display: block;
-  width: 100%;
-  height: 615px;
-  position: absolute;
-}
+
 #stow .stow-content{
   margin-top: 8%;
   padding-bottom: 10%;
@@ -670,14 +591,14 @@
 }
 
 @font-face {
-  font-family: 'OpenSans';
-  src: url(fonts/OpenSans.ttf);
+  font-family: 'Rubik';
+  src: url(fonts/Rubik.ttf);
 }
 html {
   scroll-behavior: smooth;
 }
 body{
-  font-family: 'OpenSans', 'Helvetica', sans-serif;
+  font-family: 'Rubik', 'Helvetica', sans-serif;
 }
  p{
 font-size: 16px;
@@ -722,8 +643,8 @@ font-size: 16px;
 #value,
 #s-card,
 #quote{
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 30px;
 }
 #about h2,
 #products h2{
@@ -794,13 +715,13 @@ font-size: 16px;
 
 #s-card .card-title{
   font-weight: bold;
-  font-size: 36px;
+  font-size: 26px;
   line-height: 168.6%;
   text-align: justify;
   color: #000000;
 }
 #s-card .card-text{
-  font-size: 20px;
+  font-size: 16px;
   text-align: justify;
   color: #333333;
 }
@@ -853,7 +774,6 @@ font-size: 16px;
 /* ---------------------------------- */
 #stow p{
   text-align: justify;
-  color: #fff;
   font-weight: 600;
   font-size: 16px;
   line-height: 177%;
@@ -861,7 +781,7 @@ font-size: 16px;
 #stow hr{
   width: 40%;
   height: 3px;
-  background: #fff;
+  background: linear-gradient(45deg, black, transparent);
   margin-left: 0%;
 }
 
@@ -881,6 +801,7 @@ font-size: 16px;
   background: rgba(255, 255, 255, 0.8);
   border-radius: 5px;
   color: #787676;
+  width: 90%;
 }
 #footer ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #fff;
@@ -894,11 +815,15 @@ font-size: 16px;
 ::-ms-input-placeholder { /* Microsoft Edge */
   color:#fff;
 }
+#footer {
+  font-size: 14px;
+}
 #footer .form-control{
   background: transparent;
   border: 2px solid #FFFFFF;
   box-sizing: border-box;
   border-radius: 5px;
+  width: 90%;
   color: #fff;
 }
 
@@ -924,7 +849,51 @@ font-size: 16px;
  }
 
 .navbar-nav .nav-link:hover{
-    border-bottom: 5px solid #043392;
-    border-radius: 5px;
-    color:  #043392;
+    color:  #043392 !important;
+}
+
+/* GALERY PAGE */
+#gallery-header{
+  background-image: url("images/gallery.png");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overlay{
+  background: rgba(73, 47, 134, 0.3);
+  content: '';
+  display: block;
+  height: 500px;
+  position: absolute;
+  width: 100%;
+}
+
+#gallery-header h3{
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 177%;
+  margin-top: 15%;
+}
+
+#gallery{
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+
+
+.smart-gallery:hover img{
+  -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.smart-gallery img{
+  width: 45%;
+  height: 230px;
+  margin: 0%;
+  padding: 0%;
 }

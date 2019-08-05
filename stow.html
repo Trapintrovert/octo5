@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Octo5 |</title>
+  <title>Octo5 | Real Estate Company</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -16,11 +16,9 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/simple-lightbox.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="images/fav.ico" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
 
@@ -43,6 +41,9 @@
            <a class="nav-link font-weight-bold" href="stow.html">STOW</a>
           </li>
           <li class="nav-item mx-2">
+           <a class="nav-link font-weight-bold" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item mx-2">
            <a class="nav-link font-weight-bold" href="estates.html">Our Estates</a>
           </li>
         </ul>
@@ -58,7 +59,7 @@
               <img src="images/stow.png" class="m-0" alt="STOW Project">
             </div>
             <div class="col-md-6">
-              <h2 class="my-3 font-weight-bold pt-1 text-white">STOW (Save To Own  Saving)</h2>
+              <h2 class="my-3 font-weight-bold pt-1">STOW (Save To Own  Saving)</h2>
               <hr>
               <p>Home ownership in Nigeria is a huge challenge. Majority live in rented apartments with inadequate services. The high cost of development coupled with the difficulty in accessing mortage or credit financing makes owning a home seem like an unachievable dream for many.
                   STOW (Save To Own Saving) Target Saving Scheme.
@@ -74,7 +75,7 @@
   </section>
 
   <!-- Footer -->
-  <section id="footer" class="stow-footer">
+  <section id="footer">
     <div class="footer-overlay">
       <div class="container">
         <div class="row">
@@ -83,15 +84,15 @@
               <form  action="https://formspree.io/hello@octo5enterprise.com" method="POST">
                 <input type="hidden" name="_subject" value="Message for Octo5estates">
                 <div class="form-group">
-                    <input type="email" id="email" name="_replyto" class="form-control" placeholder="Enter Email">
+                    <input type="email" id="email" name="_replyto" class="form-control" placeholder="Enter Email" required>
                     <div class="invalid-feedback">
-                      Enter a correct email
+                      Enter a correct email.
                     </div>
                 </div>
                 <div class="form-group">
-                    <textarea name="message" id="message"class="form-control" placeholder="Write your message" rows="5"></textarea>
+                    <textarea name="message" id="message"class="form-control" placeholder="Write your message" rows="4" required></textarea>
                     <div class="invalid-feedback">
-                      This field can't be empty
+                      This field can't be empty.
                     </div>
                 </div>
                 <input type="submit" value="Submit" class="btn btn-default btn-block font-weight-bold">
@@ -119,7 +120,7 @@
             <div class="my-3 text-white">
               <i class="fa fa-phone mr-2"></i> +2348012345678
             </div>
-            <p class="text-left text-white pt-2"> &copy; Octo5 Estate Limited  <script>
+            <p class="text-left text-white pt-2"> &copy; Octo5 Estates Limited  <script>
                 document.write(new Date().getFullYear())
               </script>.</p>
           </div>
@@ -131,7 +132,7 @@
 
 
    <script src="js/jquery-2.1.4.min.js"></script>
-   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/simple-lightbox.min.js"></script>
    <script src="js/popper.min.js"></script>
    <script src="js/scrollreveal.min.js"></script>
    <script src="js/bootstrap.min.js"></script>
@@ -145,37 +146,7 @@
        });
      }
     </script>
-  <script>
-    $(document).ready(function(){
-        $(".owl-carousel").owlCarousel({
-          loop:true,
-          margin:60,
-          center:true,
-          responsiveClass:true,
-          autoplay:true,
-          autoplayTimeout:2000,
-          autoplayHoverPause:true,
-          responsive:{
-              0:{
-                  items:2,
-                  nav:false,
-                  loop:true
-              },
-              600:{
-                  items:2,
-                  nav:false,
-                  loop:true
-              },
-              1000:{
-                  items:3,
-                  nav:false,
-                  loop:true
-              }
-          }
-        });
 
-    });
-  </script>
   <script>
     window.sr = ScrollReveal();
 
